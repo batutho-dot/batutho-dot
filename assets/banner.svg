@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 190" width="880" height="190" role="img" aria-label="Batu Thoms. Engineering for AI and sustainability.">
+  <style>
+    .name { font: 700 44px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; fill: #10222B; letter-spacing: -0.5px; }
+    .tag  { font: 400 21px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; fill: #55656C; }
+    .rule { fill: #0E7C72; }
+    .dot  { fill: #0E7C72; }
+    .ways { font: 500 13px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; fill: #55656C; letter-spacing: 1.2px; }
+    @media (prefers-color-scheme: dark) {
+      .name { fill: #F4F8F7; }
+      .tag, .ways { fill: #A9B8B6; }
+      .rule, .dot { fill: #BFE3DA; }
+    }
+  </style>
+  <rect class="rule" x="0" y="34" width="56" height="4" rx="2"/>
+  <text class="name" x="0" y="92">Batu Thoms</text>
+  <text class="tag" x="0" y="128">Engineering for AI and sustainability.</text>
+  <text class="ways" x="0" y="170">PROBLEM FIRST   ·   PROTOTYPE BEFORE PRODUCT   ·   CHECK, THEN TRUST</text>
+</svg>
