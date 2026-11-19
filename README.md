@@ -18,7 +18,6 @@ Each one says what it was tested on, what it scored and where it falls short.
 | **[ai&#8209;toolkit](https://github.com/batutho-dot/ai-toolkit)** | How I set up AI agents so their work can be checked: trust ladder, skills, worker agents, model tiers | Growing |
 | **[danish&#8209;tutor](https://github.com/batutho-dot/danish-tutor)** | Claude Code plugin for spoken Danish practice: a 15 minute conversation, a hidden listening drill and spaced repetition in a local database | No score yet. Ships with invented example data |
 | **[energidata&#8209;mcp](https://github.com/batutho-dot/energidata-mcp)** | Gives an AI assistant Danish power data: CO2 intensity, spot price, cleanest and cheapest hours | 10 of 10 test questions, after one fix to my own rounding (9 of 10 before) |
-| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | Reads named figures out of sustainability reports, each with the passage it came from. Invented reports only | 18 right, 0 wrong, 6 missed out of 24 |
 | **[vault&#8209;mcp](https://github.com/batutho-dot/vault-mcp)** | Read-only server over a folder of Markdown notes that refuses every path outside it | 10 of 10 questions, 7 of 7 planted broken links found, in one run |
 
 ### Study
