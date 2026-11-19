@@ -31,7 +31,7 @@ Each one says what it was tested on, what it scored and where it falls short.
 
 | | What it is | Result |
 |:--|:--|:--|
-| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | The method behind my work on reading sustainability reports, rebuilt on invented reports: every figure comes back with its source passage, or "not found". [Live demo](https://batutho-dot.github.io/sustainability-report-rag/) | 18 of 24 on invented reports. 0 of 6 on a hold-out report written after the rules |
+| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | Reads named figures out of sustainability reports, shown on invented reports: every figure comes back with its source passage, or "not found". [Live demo](https://batutho-dot.github.io/sustainability-report-rag/) | 18 of 24 on invented reports. 0 of 6 on a hold-out report written after the rules |
 
 <br>
 
