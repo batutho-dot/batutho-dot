@@ -16,7 +16,7 @@ Each one says what it was tested on, what it scored and where it falls short.
 | | What it is | Result |
 |:--|:--|:--|
 | **[ai&#8209;toolkit](https://github.com/batutho-dot/ai-toolkit)** | How I set up AI agents so their work can be checked: trust ladder, skills, worker agents, model tiers | Growing |
-| **[danish&#8209;tutor](https://github.com/batutho-dot/danish-tutor)** | Claude Code plugin for spoken Danish practice: a 15 minute conversation, a hidden listening drill and spaced repetition in a local database | No score yet. Ships with invented example data |
+| <img src="assets/danish-tutor.png" alt="" width="40" align="left"> **[danish&#8209;tutor](https://github.com/batutho-dot/danish-tutor)** | Claude Code plugin for spoken Danish practice: a 15 minute conversation, a hidden listening drill, spaced repetition in a local database, and a local app to review and edit your words | No score yet. Ships with invented example data |
 | **[energidata&#8209;mcp](https://github.com/batutho-dot/energidata-mcp)** | Gives an AI assistant Danish power data: CO2 intensity, spot price, cleanest and cheapest hours | 10 of 10 test questions, after one fix to my own rounding (9 of 10 before) |
 | **[vault&#8209;mcp](https://github.com/batutho-dot/vault-mcp)** | Read-only server over a folder of Markdown notes that refuses every path outside it | 10 of 10 questions, 7 of 7 planted broken links found, in one run |
 
