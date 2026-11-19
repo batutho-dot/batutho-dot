@@ -33,7 +33,7 @@ Each one says what it was tested on, what it scored and where it falls short.
 | | What it is | Result |
 |:--|:--|:--|
 | **[rag&#8209;from&#8209;scratch](https://github.com/batutho-dot/rag-from-scratch)** | Retrieval on EU sustainability law: word counts written by hand in numpy against a small embedding model | 6 of 10 for both at top 5, on different questions |
-| **[rag&#8209;eval](https://github.com/batutho-dot/rag-eval)** | Scores that retrieval pipeline on 40 questions, 11 of them with no answer in the texts, graded by a Claude judge | Hybrid search: right passage 25 of 29, right answer 28 of 29, 11 of 11 unanswerable declined. Judge agrees with my hand grades on 22 of 24 |
+| **[rag&#8209;eval](https://github.com/batutho-dot/rag-eval)** | Scores that retrieval pipeline on 50 questions, 14 of them with no answer in the texts, graded by a Claude judge | Hybrid search: right passage 27 of 36, right answer 32 of 36, 14 of 14 unanswerable declined. Judge agrees with my hand grades on 22 of 24 |
 | **[local&#8209;vs&#8209;claude](https://github.com/batutho-dot/local-vs-claude)** | Three local models on a gaming PC against Claude Haiku 5.5, same questions, same retrieval | A 4B local model matched Haiku: 20 of 20 answers and 10 of 10 declines in all 3 runs, at 2 to 12 times the answer time |
 
 ### Professional
