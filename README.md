@@ -15,15 +15,15 @@ Each one says what it was tested on, what it scored and where it falls short.
 
 | | What it is | Result |
 |:--|:--|:--|
-| **[ai-toolkit](https://github.com/batutho-dot/ai-toolkit)** | How I set up AI agents so their work can be checked: trust ladder, skills, worker agents, model tiers | Growing |
-| **[energidata-mcp](https://github.com/batutho-dot/energidata-mcp)** | Gives an AI assistant Danish power data: CO2 intensity, spot price, cleanest and cheapest hours | 10 of 10 test questions, after one fix to my own rounding (9 of 10 before) |
-| **[vault-mcp](https://github.com/batutho-dot/vault-mcp)** | Read-only server over a folder of Markdown notes that refuses every path outside it | 10 of 10 questions, 7 of 7 planted broken links found, in one run |
+| **[ai&#8209;toolkit](https://github.com/batutho-dot/ai-toolkit)** | How I set up AI agents so their work can be checked: trust ladder, skills, worker agents, model tiers | Growing |
+| **[energidata&#8209;mcp](https://github.com/batutho-dot/energidata-mcp)** | Gives an AI assistant Danish power data: CO2 intensity, spot price, cleanest and cheapest hours | 10 of 10 test questions, after one fix to my own rounding (9 of 10 before) |
+| **[vault&#8209;mcp](https://github.com/batutho-dot/vault-mcp)** | Read-only server over a folder of Markdown notes that refuses every path outside it | 10 of 10 questions, 7 of 7 planted broken links found, in one run |
 
 ### Study
 
 | | What it is | Result |
 |:--|:--|:--|
-| **[rag-from-scratch](https://github.com/batutho-dot/rag-from-scratch)** | Retrieval on EU sustainability law: word counts written by hand in numpy against a small embedding model | 6 of 10 for both at top 5, on different questions |
+| **[rag&#8209;from&#8209;scratch](https://github.com/batutho-dot/rag-from-scratch)** | Retrieval on EU sustainability law: word counts written by hand in numpy against a small embedding model | 6 of 10 for both at top 5, on different questions |
 | An evaluation set with questions that have no answer | Telling a search failure from an answer failure | Planned |
 | Renewables and the power bill | Reproducible Python on Eurostat data | Planned |
 
