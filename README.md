@@ -17,6 +17,7 @@ Each one says what it was tested on, what it scored and where it falls short.
 |:--|:--|:--|
 | **[ai&#8209;toolkit](https://github.com/batutho-dot/ai-toolkit)** | How I set up AI agents so their work can be checked: trust ladder, skills, worker agents, model tiers | Growing |
 | **[energidata&#8209;mcp](https://github.com/batutho-dot/energidata-mcp)** | Gives an AI assistant Danish power data: CO2 intensity, spot price, cleanest and cheapest hours | 10 of 10 test questions, after one fix to my own rounding (9 of 10 before) |
+| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | Reads named figures out of sustainability reports, each with the passage it came from. Invented reports only | 18 right, 0 wrong, 6 missed out of 24 |
 | **[vault&#8209;mcp](https://github.com/batutho-dot/vault-mcp)** | Read-only server over a folder of Markdown notes that refuses every path outside it | 10 of 10 questions, 7 of 7 planted broken links found, in one run |
 
 ### Study
@@ -24,7 +25,7 @@ Each one says what it was tested on, what it scored and where it falls short.
 | | What it is | Result |
 |:--|:--|:--|
 | **[rag&#8209;from&#8209;scratch](https://github.com/batutho-dot/rag-from-scratch)** | Retrieval on EU sustainability law: word counts written by hand in numpy against a small embedding model | 6 of 10 for both at top 5, on different questions |
-| An evaluation set with questions that have no answer | Telling a search failure from an answer failure | Planned |
+| **[rag&#8209;eval](https://github.com/batutho-dot/rag-eval)** | Scores that retrieval pipeline on 40 questions, 11 of them with no answer in the texts, graded by a Claude judge | Hybrid search: right passage 25 of 29, right answer 28 of 29, 11 of 11 unanswerable declined. Judge agrees with my hand grades on 22 of 24 |
 | Renewables and the power bill | Reproducible Python on Eurostat data | Planned |
 
 ### Professional
