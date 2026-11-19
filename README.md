@@ -1,11 +1,13 @@
 # Batu Thoms
 
-I build small AI tools for sustainability and energy data, and I measure whether they are
-right.
+**Engineering for AI and sustainability.**
+
+I design and build products, measure how they impact the environment, and build tools that
+automate and optimise workflows.
 
 ## Projects
 
-Each repo says what it was tested on, the score it reached and where it fails.
+Each one says what it was tested on, what it scored and where it falls short.
 
 | Project | What it shows | Result |
 |---|---|---|
@@ -24,17 +26,12 @@ prompt and context design
 
 **Code and data:** Python, pandas, PostgreSQL (learning), git
 
-## How I work with AI
+## How I work
 
-1. **Small version first.** I build a toy version on invented or public data and break it
-   before I touch the real thing.
-2. **Numbers, not impressions.** A change is kept only if the score on the same test set
-   goes up.
-3. **Nothing invented.** Every value has a source that can be opened. If it is not in the
-   source, the right answer is "I don't know".
-4. **The agent shows what it checked.** A task ends with what was verified, what failed and
-   what could not be checked.
-5. **The decision stays with a person.** A model can propose a method. It does not choose
-   one that changes a result.
+- **Problem first.** Find the real problem, then pick the tool.
+- **Prototype before product.** A small working version before anything big.
+- **Check, then trust.** Results get tested before I rely on them.
+- **AI as a teammate.** It earns more responsibility as it proves itself.
+- **Team over solo.** Goals and deadlines fit the team, not just me.
 
-The mechanisms behind these rules are in [ai-toolkit](https://github.com/batutho-dot/ai-toolkit).
+How that looks in practice with AI agents: [ai-toolkit](https://github.com/batutho-dot/ai-toolkit).
