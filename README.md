@@ -26,13 +26,12 @@ Each one says what it was tested on, what it scored and where it falls short.
 |:--|:--|:--|
 | **[rag&#8209;from&#8209;scratch](https://github.com/batutho-dot/rag-from-scratch)** | Retrieval on EU sustainability law: word counts written by hand in numpy against a small embedding model | 6 of 10 for both at top 5, on different questions |
 | **[rag&#8209;eval](https://github.com/batutho-dot/rag-eval)** | Scores that retrieval pipeline on 40 questions, 11 of them with no answer in the texts, graded by a Claude judge | Hybrid search: right passage 25 of 29, right answer 28 of 29, 11 of 11 unanswerable declined. Judge agrees with my hand grades on 22 of 24 |
-| Renewables and the power bill | Reproducible Python on Eurostat data | Planned |
 
 ### Professional
 
 | | What it is | Result |
 |:--|:--|:--|
-| Implementing AI in sustainability | My work code and data are not public | Private |
+| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | The method behind my work on reading sustainability reports, rebuilt on invented reports: every figure comes back with its source passage, or "not found". [Live demo](https://batutho-dot.github.io/sustainability-report-rag/) | 18 of 24 on invented reports. 0 of 6 on a hold-out report written after the rules |
 
 <br>
 
