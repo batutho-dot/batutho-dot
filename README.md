@@ -19,6 +19,14 @@ Each one says what it was tested on, what it scored and where it falls short.
 | <img src="assets/danish-tutor.png" alt="" width="40" align="left"> **[danish&#8209;tutor](https://github.com/batutho-dot/danish-tutor)** | Claude Code plugin for spoken Danish practice: a 15 minute conversation, a hidden listening drill, spaced repetition in a local database, and a local app to review and edit your words | No score yet. Ships with invented example data |
 | **[energidata&#8209;mcp](https://github.com/batutho-dot/energidata-mcp)** | Gives an AI assistant Danish power data: CO2 intensity, spot price, cleanest and cheapest hours | 10 of 10 test questions, after one fix to my own rounding (9 of 10 before) |
 | **[vault&#8209;mcp](https://github.com/batutho-dot/vault-mcp)** | Read-only server over a folder of Markdown notes that refuses every path outside it | 10 of 10 questions, 7 of 7 planted broken links found, in one run |
+| **[sustainability&#8209;data&#8209;agent](https://github.com/batutho-dot/sustainability-data-agent)** | One agent that uses two of my data servers together (Danish power data and Eurostat) to answer cross-source questions | 10 of 10 in each of 3 runs on Haiku 5.5 (0.02 USD per run) and on Sonnet 5.5 (0.38 USD per run) |
+
+### Energy
+
+| | What it is | Result |
+|:--|:--|:--|
+| **[ptx&#8209;dispatch](https://github.com/batutho-dot/ptx-dispatch)** | When should a 10 MW PEM electrolyser run? Hourly dispatch on DK1 spot price and CO2 intensity, Oct 2025 to Sep 2026, parameters from the Danish Energy Agency technology data | Running only in the cheapest 4 h a day cuts electricity cost from 5.82 to 2.81 EUR/kg H2 but raises CO2 from 5.93 to 6.57 kg/kg: in DK1 cheap hours were not the clean hours |
+| **[carbon&#8209;aware&#8209;runner](https://github.com/batutho-dot/carbon-aware-runner)** | Starts a heavy computer job in the cleanest window before a deadline, from Energinet's CO2 forecast | Live dry run 2026-11-19: the chosen window was 74% cleaner than starting right away |
 
 ### Study
 
@@ -26,12 +34,13 @@ Each one says what it was tested on, what it scored and where it falls short.
 |:--|:--|:--|
 | **[rag&#8209;from&#8209;scratch](https://github.com/batutho-dot/rag-from-scratch)** | Retrieval on EU sustainability law: word counts written by hand in numpy against a small embedding model | 6 of 10 for both at top 5, on different questions |
 | **[rag&#8209;eval](https://github.com/batutho-dot/rag-eval)** | Scores that retrieval pipeline on 40 questions, 11 of them with no answer in the texts, graded by a Claude judge | Hybrid search: right passage 25 of 29, right answer 28 of 29, 11 of 11 unanswerable declined. Judge agrees with my hand grades on 22 of 24 |
+| **[local&#8209;vs&#8209;claude](https://github.com/batutho-dot/local-vs-claude)** | Three local models on a gaming PC against Claude Haiku 5.5, same questions, same retrieval | A 4B local model matched Haiku: 20 of 20 answers and 10 of 10 declines in all 3 runs, at 2 to 12 times the answer time |
 
 ### Professional
 
 | | What it is | Result |
 |:--|:--|:--|
-| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | Reads named figures out of sustainability reports, shown on invented reports: every figure comes back with its source passage, or "not found". [Live demo](https://batutho-dot.github.io/sustainability-report-rag/) | 18 of 24 on invented reports. 0 of 6 on a hold-out report written after the rules |
+| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | Reads named figures out of sustainability reports, shown on invented reports: every figure comes back with its source passage, or "not found". [Live demo](https://batutho-dot.github.io/sustainability-report-rag/) | On a hold-out report written after the rules: language model 5 of 6, rules 0 of 6. Neither returned a wrong figure. One run |
 
 <br>
 
