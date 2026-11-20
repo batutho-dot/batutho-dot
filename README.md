@@ -36,12 +36,6 @@ Each one says what it was tested on, what it scored and where it falls short.
 | **[rag&#8209;eval](https://github.com/batutho-dot/rag-eval)** | Scores that retrieval pipeline on 50 questions, 14 of them with no answer in the texts, graded by a Claude judge | Hybrid search: right passage 27 of 36, right answer 32 of 36, 14 of 14 unanswerable declined. Judge agrees with my hand grades on 22 of 24 |
 | **[local&#8209;vs&#8209;claude](https://github.com/batutho-dot/local-vs-claude)** | Three local models on a gaming PC against Claude Haiku 5.5, same questions, same retrieval | A 4B local model matched Haiku: 20 of 20 answers and 10 of 10 declines in all 3 runs, at 2 to 12 times the answer time |
 
-### Professional
-
-| | What it is | Result |
-|:--|:--|:--|
-| **[sustainability&#8209;report&#8209;rag](https://github.com/batutho-dot/sustainability-report-rag)** | Reads named figures out of sustainability reports, shown on invented reports: every figure comes back with its source passage, or "not found". [Live demo](https://batutho-dot.github.io/sustainability-report-rag/) | On a hold-out report written after the rules: language model 5 of 6, rules 0 of 6. Neither returned a wrong figure. One run |
-
 <br>
 
 ## Skills
